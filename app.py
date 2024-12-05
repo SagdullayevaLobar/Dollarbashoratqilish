@@ -60,6 +60,6 @@ st.write(input_data)
 
 prediction = model.predict(input_data)
 st.subheader("Bashorat qilingan Dollar Kursi")
-st.write(f"${prediction[0]:,.2f}")
+st.write(f"{prediction[0]:,.2f} UZS")
 
 
